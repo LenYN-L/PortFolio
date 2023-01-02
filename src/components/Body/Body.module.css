@@ -1,0 +1,211 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-areas: 'a'
+                         'b'
+                         'c'
+                         'd'
+                         'e'; 
+    gap: 1rem;
+}
+
+@media screen and (min-width: 960px) {
+    .cards {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(5, auto);
+      grid-template-areas:
+        'a a'
+        'b d'
+        'b e'
+        'c e'
+        'c e';
+    }
+  }
+
+
+.card {
+    position: relative;
+    border-radius: 12px;
+    padding: 1rem;
+    color: hsl(0, 0%, 24%);
+} 
+
+
+.card:nth-child(2) {
+    background: linear-gradient(90deg , transparent, #a5ffd6);
+}
+
+.card:nth-child(3) {
+    background: linear-gradient(90deg, transparent, #ffa69e);
+}
+
+.card:nth-child(4) {
+    background: linear-gradient(-90deg , transparent, #ff686b);
+}
+
+.card:nth-child(5) {
+    background: linear-gradient(-90deg , transparent, #84dcc6);
+
+}
+
+@media screen and (min-width: 960px) {
+    .card:nth-child(1) {
+      grid-area: a;
+    }
+  
+    .card:nth-child(2) {
+      grid-area: b;
+    }
+  
+    .card:nth-child(3) {
+      grid-area: c;
+    }
+  
+    .card:nth-child(4) {
+      grid-area: d;
+    }
+
+    .card:nth-child(5) {
+        grid-area: e;
+      }
+  } 
+
+.title {
+    width: auto;
+    font-size: 4rem;
+    font-weight: 900;
+    background: linear-gradient(-45deg, #84dcc6, #ff686b, #a5ffd6, #ffa69e);
+    background-size: 400%;
+    text-align: center;
+    line-height: .9;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title1 {
+    animation: animate1 10s linear infinite alternate;
+}
+
+@keyframes animate1 {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.contentIcon {
+    text-align: center;
+}
+
+.icon {
+    font-size: 3rem;
+    padding: .5rem 1rem .5rem;
+    color: hsl(0, 0%, 24%);
+}
+
+.contactForm {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.gearHorario1 {
+    font-size: 7rem;
+    animation: rotate1 5s linear infinite;
+}
+
+.iAm {
+    font-weight: 400;
+}
+
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0)
+    } 
+    
+    100% {
+        transform: rotate(360deg);
+    }
+
+    
+}
+
+.gearAntiHorario {
+    font-size: 7rem;
+    animation: rotate2 5s .4s linear infinite;
+}
+
+@keyframes rotate2 {
+    0% {
+        transform: rotate(0)
+    } 
+    
+    100% {
+        transform: rotate(-360deg);
+    }
+
+    
+}
+
+.gearHorario2 {
+    font-size: 7rem;
+    animation: rotate3 5s .8s linear infinite;
+}
+
+@keyframes rotate3 {
+    0% {
+        transform: rotate(0)
+    } 
+    
+    100% {
+        transform: rotate(360deg);
+    }
+
+    
+}
+
+.cardProyect {
+    display: grid;
+    place-content: center;
+}
+
+.cardProyect div {
+    text-align: center;
+}
+
+.proyectTitle {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.aboutMe {
+    font-size: 1.2rem;
+}
+
+
+.card:nth-child(2) h2 {
+    padding-bottom: 1rem;
+}
+
+.card:nth-child(2) p {
+    padding-bottom: 1rem;
+}

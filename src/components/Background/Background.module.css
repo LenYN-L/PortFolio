@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    font-size: 50px;
+}
+
+.row {
+    position: absolute;
+    z-index: -1;
+    padding: 0;
+    height: 100vh;
+    top: 0;
+}
+
+.icon {
+    padding: 0 34px; 
+    user-select: none; 
+    color: black;
+}
+
+.iconGithub {
+    animation: animate1 15s linear infinite;
+}
+@keyframes animate1 {
+    0% {
+        transform: translateY(70vh);
+        opacity: 0%;
+    }
+
+    50% {
+        transform: translateY(50vh);
+        opacity: 30%;
+    }
+
+    100% {
+        transform: translateY(20vh); 
+        opacity: 0%;  
+    }
+}
+
+.iconReact {
+    animation: animate2 8s linear infinite;
+}
+@keyframes animate2 {
+    0% {
+        transform: translateY(90vh);
+        opacity: 0%;
+    }
+
+    50% {
+        transform: translateY(85vh);
+        opacity: 30%;
+    }
+
+    100% {
+        transform: translateY(60vh); 
+        opacity: 0%;  
+    }
+}
+
+.iconSquereJs {
+    animation: animate3 10s linear infinite;
+}
+@keyframes animate3 {
+    0% {
+        transform: translateY(50vh);
+        opacity: 0%;
+    }
+
+    50% {
+        transform: translateY(25vh);
+        opacity: 30%;
+    }
+
+    100% {
+        transform: translateY(5vh); 
+        opacity: 0%;  
+    }
+}
+
+.iconPython {
+    animation: animate4 30s linear infinite;
+}
+@keyframes animate4 {
+    0% {
+        transform: translateY(90vh);
+        opacity: 0%;
+    }
+
+    50% {
+        transform: translateY(45vh);
+        opacity: 30%;
+    }
+
+    100% {
+        transform: translateY(10vh); 
+        opacity: 0%;  
+    }
+}
+
+.iconNodeJs {
+    animation: animate5 7s linear infinite;
+}
+@keyframes animate5 {
+    0% {
+        transform: translateY(50vh);
+        opacity: 0%;
+    }
+
+    50% {
+        transform: translateY(45vh);
+        opacity: 30%;
+    }
+
+    100% {
+        transform: translateY(40vh); 
+        opacity: 0%;  
+    }
+}
+
+.iconNpm {
+    animation: animate6 5s linear infinite;
+}
+@keyframes animate6 {
+    0% {
+        transform: translateY(10vh);
+        opacity: 0%;
+    }
+
+    50% {
+        transform: translateY(8vh);
+        opacity: 30%;
+    }
+
+    100% {
+        transform: translateY(3vh); 
+        opacity: 0%;  
+    }
+}
+
+.iconTerminal {
+    animation: animate7 8s linear infinite;
+}
+@keyframes animate7 {
+    0% {
+        transform: translateY(50vh);
+        opacity: 0%;
+    }
+
+    50% {
+        transform: translateY(45vh);
+        opacity: 30%;
+    }
+
+    100% {
+        transform: translateY(20vh); 
+        opacity: 0%;  
+    }
+}
+
+.iconCss3 {
+    animation: animate8 20s linear infinite;
+}
+@keyframes animate8 {
+    0% {
+        transform: translateY(30vh);
+        opacity: 0%;
+    }
+
+    50% {
+        transform: translateY(15vh);
+        opacity: 30%;
+    }
+
+    100% {
+        transform: translateY(5vh); 
+        opacity: 0%;  
+    }
+}
+
+.iconHtml5 {
+    animation: animate9 30s linear infinite;
+}
+@keyframes animate9 {
+    0% {
+        transform: translateY(90vh);
+        opacity: 0%;
+    }
+
+    50% {
+        transform: translateY(50vh);
+        opacity: 30%;
+    }
+
+    100% {
+        transform: translateY(10vh); 
+        opacity: 0%;  
+    }
+}
+
+.iconGit {
+    animation: animate10 10s linear infinite;
+}
+@keyframes animate10 {
+    0% {
+        transform: translateY(60vh);
+        opacity: 0%;
+    }
+
+    50% {
+        transform: translateY(30vh);
+        opacity: 30%;
+    }
+
+    100% {
+        transform: translateY(0vh); 
+        opacity: 0%;  
+    }
+}
+
+.iconLinux {
+    animation: animate11 50s linear infinite;
+}
+@keyframes animate11 {
+    0% {
+        transform: translateY(90vh);
+        opacity: 0%;
+    }
+
+    50% {
+        transform: translateY(50vh);
+        opacity: 30%;
+    }
+
+    100% {
+        transform: translateY(10vh); 
+        opacity: 0%;  
+    }
+}
+
+.iconGoogle {
+    animation: animate12 10s linear infinite;
+}
+@keyframes animate12 {
+    0% {
+        transform: translateY(30vh);
+        opacity: 0%;
+    }
+
+    50% {
+        transform: translateY(20vh);
+        opacity: 30%;
+    }
+
+    100% {
+        transform: translateY(10vh); 
+        opacity: 0%;  
+    }
+}
+
+
+
+
