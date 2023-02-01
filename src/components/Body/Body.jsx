@@ -58,7 +58,7 @@ const Body = () => {
                 icon={faTelegram}
               ></FontAwesomeIcon>
             </a>
-            <a href="https://linkedin.com/in/lenyn-bejar-apaza-997577260">
+            <a href="https://www.linkedin.com/in/lenynbejar/">
               <FontAwesomeIcon
                 className={styles.icon}
                 icon={faLinkedin}
